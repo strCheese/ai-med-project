@@ -31,7 +31,7 @@ To sustain this project, we are considering setting up a crowdfunding campaign, 
    		```
    		- Windows (cmd):
 
-   		open setup.bat file
+   		open setup.bat file (unc paths aren't supported currently due to limitations of cmd prompt and lack of capabilities on from microsoft)
 
    - This will set up the entire environment, including the installation of necessary Python packages in a virtual environment.
 
