@@ -16,7 +16,27 @@ We are reaching out to the global community for support. Whether you are a data 
 To sustain this project, we are considering setting up a crowdfunding campaign, such as GoFundMe or Kickstarter. Details on how to contribute financially will be provided soon. Your support, in any form, is invaluable to us.
 
 ## Getting Started
-adding a docker file for ease of implementation shortly.  I'm doing my development in debian using python 
+
+### Prerequisites
+- Install [Docker](https://www.docker.com/get-started) and [Docker Compose](https://docs.docker.com/compose/install/) on your system.
+
+### Set Up the Environment
+1. **Clone the Repository**: Clone this repository to your local machine.
+2. **Build and Run Using Docker Compose**:
+   - Navigate to the project directory where the `docker-compose.yml` file is located.
+   - Run the following command to build and start the container:
+   		- Linux (bash):
+		```
+   		docker-compose -p ai-med up
+   		```
+   		- Windows (cmd):
+
+   		open setup.bat file
+
+   - This will set up the entire environment, including the installation of necessary Python packages in a virtual environment.
+
+### Activating the Virtual Environment
+- Once inside the Docker container, the Python virtual environment will be activated automatically. You can start working with the project immediately.
 
 ## Contact
 06.greens-timers@icloud.com
