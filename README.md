@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI for Healthcare: A Community-Driven Approach
 
 ## Introduction
@@ -27,3 +28,6 @@ A heartfelt thank you to everyone who supports and contributes to this project. 
 ---
 
 *This project is dedicated to [Name of your mother-in-law], whose strength and journey inspire us to push the boundaries of what's possible.*
+=======
+# ai-med-project
+>>>>>>> origin/main
