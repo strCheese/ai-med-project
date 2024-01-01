@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  ai-med-app:
+    build: .
+    image: debian-ai-image
+    container_name: debian_ai_container
+    #volumes:
+    #  - .:/home/putty-ssh/ai/med
+    stdin_open: true    # Keep stdin open
+    tty: true           # Allocate a pseudo-TTY
+    command: /bin/bash
