@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AI for Healthcare: A Community-Driven Approach
 
 ## Introduction
@@ -17,17 +16,14 @@ We are reaching out to the global community for support. Whether you are a data 
 To sustain this project, we are considering setting up a crowdfunding campaign, such as GoFundMe or Kickstarter. Details on how to contribute financially will be provided soon. Your support, in any form, is invaluable to us.
 
 ## Getting Started
-[Instructions on how to set up and run the project, contribute code, etc.]
+adding a docker file for ease of implementation shortly.  I'm doing my development in debian using python 
 
 ## Contact
-[Your contact information or how to get in touch for collaborations and inquiries.]
+06.greens-timers@icloud.com
 
 ## Acknowledgments
 A heartfelt thank you to everyone who supports and contributes to this project. Together, we can explore new frontiers in healthcare and AI.
 
 ---
 
-*This project is dedicated to [Name of your mother-in-law], whose strength and journey inspire us to push the boundaries of what's possible.*
-=======
-# ai-med-project
->>>>>>> origin/main
+*This project is dedicated to Wanda, whose strength and journey inspire us to push the boundaries of what's possible.*
