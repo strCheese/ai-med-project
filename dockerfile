@@ -4,6 +4,9 @@ FROM debian:stable-20231030-slim
 # Install Git to capture commit information
 RUN apt-get update && apt-get install -y git
 
+# Install Python libraries
+RUN pip install tensorflow keras scikit-learn pandas numpy
+
 # Capture the current Git commit information
 RUN git init && \
     git remote add origin https://github.com/strCheese/ai-med-project.git && \
