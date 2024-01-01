@@ -7,8 +7,7 @@ RUN apt-get update && apt-get install -y git
 # Capture the current Git commit information
 RUN git init && \
     git remote add origin https://github.com/strCheese/ai-med-project.git && \
-    git fetch origin && \
-    git checkout origin/main
+    git pull origin main
 
 # Clean up the package cache to reduce image size
 RUN apt-get clean && \
